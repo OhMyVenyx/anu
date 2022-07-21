@@ -1,0 +1,97 @@
+==============================
+Notes:
+==============================
+- Cleanflash is mandatory.
+- FDE builds
+- Already included GApps
+- Safetynet passes by default (without root)
+- Report bugs with logs else you will be ignored
+
+==============================
+Device:
+==============================
+- Initial build
+- Using default build FP
+- Inbuilt ih8sn by default
+- Speedup ui animations
+- Optimize native executables for Cortex-A53 CPU
+- Silence camera excessive logs
+- Update audio configs from LA.UM.9.6.2.c25-00800-89xx.0
+- Fixup overheating & battery drain issue
+- Inherit several Android Go configurations
+- Speed profile services and wifi-service
+- Force triple frame buffers
+- Disable VSync for CPU rendered apps
+- Address denials
+- Enable config support for battery health
+- Unpin updatable-media from memory
+- Disable Adaptive Connectivity preference by default
+- Add OpenGL ES and update Vulkan dEQP feature flags.
+- Merge linux stable 4.9.323 on kernel
+==============================
+Rom:
+==============================
+
+     2022/07/18
+- SystemUI: Lockscreen clock improvements
+- ADBRootService: Add isSupported() method to check if we are debuggable
+- Squashed import of adb root patches
+- SystemUI: Allow limiting AOD & ambient display refresh rate
+
+    2022/07/17
+- SystemUI: media: better fade filter and encapsulate artwork settings in a data class
+- Require CONFIG_HID_PLAYSTATION for DualSense key layout
+- fixup! SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model
+
+     2022/07/15
+- Add AlarmsBlocker
+- Add WakelockBlocker
+- Make sensor block package list configurable
+- base: Add Accelerometer and Linear Acceleration sensors in blocking list
+- FWB: Sensor block per-package switch
+- SystemSensorManager: sensor block per-package
+- Evolver: Rework Alarm & Wakelock blocker fragments
+
+     2022/07/14
+- Wifi: Add mVerboseLoggingEnabled variable
+
+     2022/07/13
+- Camera: Skip stream size check for whitelisted apps
+- base: ChooserActivity: Don't show image edit button on multiple targets
+- DeviceIdleJobsController: don't ignore whitelisted system apps
+- SystemUI: CastTile: Open cast settings on long click
+- Extend splash screen exception list to SC-V2
+- fonts: Use fallback variant of Roboto
+- services: AppLockManagerService: fix an oob exception
+- base: Prevent NPE for Demo mode
+- Camera: Update HighFrameRate GPU flags
+- fixup! Camera: Skip stream size check for whitelisted apps
+- Keyguard Clock: Use google sans only for faulty fonts
+- core: Optimize download/upload animations
+
+     2022/07/12
+- Drop rules for adb_root
+- BootAnimation: Check for resolution override
+- PixelPropsUtils: Spoof play store once again
+
+     2022/07/11
+- PixelPropsUtils: GameProps: Hide Apex Legends as Mi11
+
+     2022/07/10
+- permissions: Update SettingsProvider permissions
+- permissions: Update Settings app allowlist
+- Reload navbar icons on changing style [1/2]
+- Add support for Navbar styles
+- QS: improve tile state consistency
+- QS: Locale Tile
+- MusicTile: Clean up redundant code
+- Option to disable music track title in QS tile [1/2]
+- QS: Add Music QS Tile
+- base: SystemUI: Allow flags to be overrideable
+- SystemUI: Add current divider config for lockscreen charging
+- vold: fix the range of stopped state of idleMaint
+- gms: Drop PlayAutoInstallConfig
+
+     2022/07/09
+
+- Add vendor.qti.hardware.vpp 1.4 to vendor framework compat matrix
