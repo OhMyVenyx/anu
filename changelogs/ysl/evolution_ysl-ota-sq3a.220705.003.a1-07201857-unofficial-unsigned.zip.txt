@@ -1,0 +1,42 @@
+==============================
+Notes:
+==============================
+- Dirty available from previous build, but cleanflash always recommended
+- FDE builds
+- Already included GApps
+- Safetynet passes by default (without root)
+- Report bugs with logs else you will be ignored
+
+==============================
+Device:
+==============================
+- Fixup some app crashes. like telegram, youtube, etc.
+- Enable zram-writeback job
+- Address gmscore apps denials
+- Add multi-user support
+- Tune zram performance
+- Adjusted statusbar padding
+- Switch to libperfmgr for powerhint
+- Switch to Xiaomi power AIDL HAL
+- Tune powerhint tables for msm8953
+
+==============================
+Rom:
+==============================
+
+     2022/07/20
+- SystemUI: media_view: align song and artist name text
+- GameSpace: Change tile enabled/disabled case for consistency
+
+     2022/07/19
+- SystemUI: doze: add config for long press sensors that need a proximity check
+- SystemUI: doze: add config for double tap sensors that need a proximity check
+- Partially revert "Assume sensors perform prox check"
+- SystemUI: set white color for media actions button background
+- core: Remove P21 experience system feature check
+- PixelPropsUtils: Removing spoof for streaming apps
+- fixup! PixelPropsUtils: Limit SafetyNet workarounds to unstable GMS process
+- EvolutionUtils: Use Display.getCutout() to check if we have a center notch
+- Skip less boring notification check when reTicker mode is active
+- fixup! Less boring heads up option [1/2]
+- themes: fonts: Add Roboto overlay
