@@ -1,0 +1,46 @@
+==============================
+Notes:
+==============================
+- Final build!! Don't ask about more update
+- Encryption disabled (FDE builds)
+- GApps already included
+
+==============================
+Device:
+==============================
+- Merged September 2022 security patch
+- Update PixelPropsUtils to September 2022 Android 13 release
+- Fix lag in some scenarios when multitasking 
+- Fix instagram video bug in some time (again)
+- Switch into prebuilt GrapheneOS Camera v48
+- Merge linux stable 4.9.328 on kernel
+
+==============================
+Rom:
+==============================
+- Fix QS compass tile spam & instability
+- Further increase blur radius for glass blur effect
+- Add telephony stack to privacy indicator whitelist
+- Don't reset A2DP offload when disabling developer settings
+- Make LS media filter blur radius configurable
+- PixelPropsUtils: Correctly spoof pixel props
+- Bring back lockscreen media art blur filters
+- Add transparent QS customization feature
+- NotificationMediaManager: Increase blur radius for blur media filters
+- SystemUI: match brightness slider track height with the progress drawable
+- SystemUI: Switch notification background to monet on heads up
+- Remove Kscope authored features
+- Add master switch strings for new MainSwitchPreferences
+- Settings: Adjust master switch strings for new MainSwitchPreference
+- SystemUI: Implement sleep for pickup gesture
+- Add SystemPropertySwitchPreference
+- Improve app list fragment
+- Introduce {Global,Secure,System}MainSwitchPreference
+- Use MainSwitchPreference when applicable
+- Use SystemPropertySwitchPreference for Photos/Games props
+- KeyguardUpdateMonitor: Destroy our settings observer when necessary
+- Screenrecord: Allow to select AVC codec profile level
+- Set default value of config_supportsScreenOffUdfps to false
+- Settings: Add SettingsLibMainSwitchPreference library
+- SettingsLib: Fix nav bar color on certain apps
+- SettingsLib: fixup Big dotted circle integer value
