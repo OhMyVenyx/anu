@@ -1,0 +1,93 @@
+==============================
+Notes:
+==============================
+- Cleanflash is recommended
+- Encryption disabled (FDE builds)
+- GApps already included
+- Safetynet passes by default (without root)
+- Report bugs with logs else you will be ignored
+
+==============================
+Device:
+==============================
+- Initial android 13 build
+- Switch BtAudio to AIDL
+- Migrate to AIDL ClearKey DRM HAL
+- Move to common Xiaomi light AIDL
+- Fix jittery UI during screen recorder
+- Force disable iorapd
+- Reworked statusbar padding
+- Enable zygote critical window
+- Added PowerOffAlarm feature
+- Drop renderscript bits
+- Disable sdm rotator downscaler
+- Disable Skia tracing by default
+- Update GrapheneOS Camera to v59
+- Merge latest linux stable 4.9.337 on kernel
+- Enable supported of KernelSU
+
+==============================
+Rom:
+==============================
+
+     2023/02/15
+
+- recovery: rewrite slot switch logic using bootcontrol APIs
+- build: make: use jemalloc by default and allow opt-in to scudo (1/3)
+- build: soong: use jemalloc by default and allow opt-in to scudo (2/3)
+- system: overlay: perf: Enable BoostFramework
+- SystemUI: Fix clock text color on combined qs header
+- ClockDrawableWrapper: Set DISABLE_SECONDS to false
+- blur: Invalidate newly-bound framebuffers before rendering
+- telephony: Use case insensitive check for plmn-spn
+- Support P010 with Gralloc2 on Gralloc1 passthrough
+- fixup! GameSpace: Update takeScreenshot API in ScreenUtils
+- debuggerd: Remove scudo headers from debuggerd tests
+- Handle key parameter conversion for FBE_ICE tag
+- BACKPORT: Add bluetooth disable enhanced SCO connection
+- Don't verify payload signatures in recovery
+- vold: Accept Linux GPT partitions on external SD cards
+- SettingsGoogle: Sync with Evolution X changes
+
+     2023/02/14
+
+- Automatic translation import
+- PermissionController: Always enable location accuracy feature
+- vendor: Update overlays from cheetah: TQ1A.230205.002
+
+
+     2023/02/13
+
+- manifest: Track RevampedFMRadio
+- Launcher3: Increase default blur radius to 65px
+- Remove setPerformanceMode call
+- Revert "Enable robust caching for client side by default"
+- Automatic translation import
+
+
+     2023/02/12
+
+- bionic: use jemalloc by default and allow opt-in to scudo (3/3)
+- cheetah: TQ1A.230205.002
+
+
+     2023/02/11
+
+- New Crowdin updates (#226-#369)
+
+
+     2023/02/10
+
+- interfaces: Add perf 2.3 interface
+
+
+     2023/02/09
+
+- ThemePicker: Update PixelThemesStub from cheetah-user 13 TQ1A.230105.002 9325679
+- gms: Remove blobs/packages conflicting with Pixel vendor
+
+
+     2023/02/08
+
+- Merge tag 'android-13.0.0_r30' of https://android.googlesource.com/platform/frameworks/av into tiramisu
+- Fix dark navigationBar background in some telephony settings pages
