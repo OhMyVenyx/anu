@@ -1,0 +1,104 @@
+==============================
+Notes:
+==============================
+- Cleanflash is recommended
+- Encryption disabled (FDE builds)
+- GApps already included
+- Safetynet passes by default (without root)
+- Report bugs with logs else you will be ignored
+
+==============================
+Device:
+==============================
+- Switch to Revamped FMRadio
+- Update CarrierConfig overlay from star V14.0.6.0.TKACNXM
+- Update datastatusnotification from coral
+- Update prebuilt GrapheneOS Camera to v62
+- Dropped KernelSU
+- Other changes and improvements
+
+==============================
+Rom:
+==============================
+
+     2023/05/24
+
+- SystemUI: Fix horizontal scrolling issues
+- SystemUI: Increase QS brigtness slider margins
+- SystemUI: QS customizations settings [1/2]
+- SystemUI: Fix inconsistent secondary label text size
+- SystemUI: Fix reticker notification background
+- SystemUI: Avoid using null Context in onTuningChanged()
+- Include build manifest on target
+
+
+     2023/05/23
+
+- SystemUI: Add More Battery Styles [1/2]
+- base: Allow showing Ambient instead of fully waking [1/2]
+- base: Allow setting wake for notification separately from doze [1/2]
+- [SQUASH] base: Remove previous Ambient on wake gesture impls [1/2]
+- [SQUASH] SystemUI: Remove QS header images [1/2]
+907be02f6513 [SQUASH] SystemUI: Remove QS tile layout settings [1/2]
+- wm: Fix menu in legacy apps with multiple activities
+- fixup! SystemUI: Adjust qqs top margin dimension
+- Evolver: Add more Landscape Battery Styles [2/2]
+- Revert "Evolver: Allow to choose lockscreen or Ambient on wake gestures [2/2]"
+- [TMP] Evolver: Remove QS Header Image and QS tile layout settings [2/2]
+- Launcher3: Allow to control parallax effect and center wallpaper
+- Launcher3: recents: Disable lens perf if package is not installed
+- Launcher3: Add customization to set hotseat background opacity
+- Launcher3: Add light theme support for translucent hotseat background
+- Launcher3: animate workspace on pages without smartspace visible
+- Launcher3: support navbar surface drag-n-drop [2/2]
+- Revert "Launcher3: Just say "System" instead of "Unknown" for app source"
+- Launcher3: HotseatEduController: Guard against some odd & rare NPE
+- Launcher3: Fix monkey crash in RecentsLaunchAnimator
+- Launcher3: Add missing end tag in priv-app permissions xml
+- Launcher3: Setup icon pack's launchIntent
+- Launcher3: Use SelectorWithWidgetPreference for icon pack's selection
+- Launcher3: Use overridden IconProvider instance consistently
+- Launcher3: Always show all apps label instead of line
+- Launcher3: Prevent double press behaviour for overview actions
+- Launcher3: Add REGISTER_STATS_PULL_ATOM permission
+- Launcher3: Prevent shake listener from running when not in view
+- Launcher3: Let's keep 2-button nav alive for a little longer
+- Launcher3: Add NPE check in TaskbarDragController
+- Launcher3: Show a toast when restarting the launcher
+- Launcher3: Move restart check to home page
+- Skip glitchy search animation
+- Revert "Launcher3: Introduce overview scrolling scale animation"
+- Launcher3: Make recents buttons chips
+- Launcher3: SystemShortcuts: Fix fc with InfoBottomSheet
+- Launcher3: Match layouts from Pixel Launcher
+- Launcher3: Match default apps with Pixel Launcher
+- Launcher3: Match dimens with Pixel Launcher
+- Launcher3: Add a particle effect easter egg to main SettingsActivity
+- Launcher3: smartspace: Adapt to 13-QPR2
+- Launcher3: Open google weather on tapping smartspace
+- Launcher3: Update smartspace to 13-QPR1
+- Launcher3: bcsmartspace: Import translations
+- Launcher3: Import bcsmartspace lib
+- Launcher3: Drop enhanced_smartspace_padding_top
+- Launcher3: Fixup Smartspace
+- Launcher3: Fix nonsense smartspace span in some workspaces
+- Launcher3: Fix crash in smartspace targets dump
+- Launcher3: Add a toggle for smartspace
+- Launcher3: Open google weather on tapping smartspace
+- Launcher3: Implement workspace unlock animation
+- Launcher3: Bring back WorkspaceUnlockAnim
+- Launcher3: Implement Smartspace
+- Launcher3: Create Custom Launcher
+- Fix NPE in FallbackSwipeHandler when getRunningTask() returns null
+- Fix a potential NPE when buildAnimationController is called
+- Fix potential ConcurrentModificationException
+- Disable Launcher AIDL_TAG tracing special case
+- Launcher3: Updates from Pixel Launcher
+- Launcher3: Bring back 4x4 grid option
+- Launcher3: Add more permissions to manifest
+- Launcher3: Do not skip search animation for app icons
+- Launcher3: Hide scrollbar when searching All Apps
+- Settings: Allow showing Ambient instead of fully waking [2/2]
+- Settings: Allow setting wake for notification separately from doze [2/2]
+- [SQUASH] Settings: Remove previous Ambient on wake gesture impls [2/2]
+- VncFlinger: delay sending surface for a bit  
